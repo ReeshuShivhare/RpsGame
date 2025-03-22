@@ -1,0 +1,68 @@
+/* css file game */
+body{
+    background-color: #f084c6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    padding: 7rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score{
+    font-size: 2rem;
+}
+
+#msg{
+    margin-top: 5rem;
+    background-color: #081b31;
+    color: #fff; 
+    font-size: 1.5rem;
+    display: inline;
+    border-radius: 5%;
+}
